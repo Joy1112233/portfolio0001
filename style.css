@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    background-color: rgb(240, 231, 231);
 }
 .logo{
     display: flex;
@@ -19,6 +19,7 @@ body{
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    margin: 15px 0px 15px 0px;
 
 }
 .circle{
@@ -32,9 +33,13 @@ body{
     color: white;
     cursor: pointer;
 }
+.header nav{
+    margin: 15px 0px 15px 0px;
+}
 .header nav ul{
     display: flex;
     gap: 30px;
+
 }
 
 .header nav li{
@@ -52,6 +57,47 @@ body{
 .header nav a:hover{
     background-color: blueviolet;
     color: white;
-    border-radius: 5px;
+    border-radius: 5px; 
+}
+
+/* hero section */
+
+.hero-container{
+    background-image: url("/images/hero-image-3.avif");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 500px;
+    color:rgb(30, 0, 60);
+    font-size: 1.5em;
     
+    /* border: 1px solid red; */
+}
+
+.hero-btn{
+    padding: 10px;
+    color: rgb(10, 1, 19);
+    font-size: 1em;
+    font-weight: 700;
+    background-color: rgb(217, 213, 220);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px rgb(156, 153, 158);
+}
+
+.hero-btn:hover{
+    background-color: blueviolet;
+    color: white;
 }
