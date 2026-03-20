@@ -179,5 +179,75 @@ body{
 .skill-card:hover{
     box-shadow: 2px 2px 30px rebeccapurple;
     border-radius: 0px 10px 0px 10px;
+}
 
+.footer{
+    background-color: blueviolet;
+    height: 500px;
+    margin-top: 50px;
+}
+.footer h1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer-container{
+    display: flex;
+    /* justify-content:space-around; */
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+    height: 500px;
+    gap: 50px;
+
+}
+
+.foot-contact{
+    display: flex;
+    flex-direction: column;
+}
+.foot-contact input{
+    width: 400px;
+}
+.footer-container h2{
+    color: white;
+    font-size: 2.2em;
+    font-weight: 800;
+}
+.footer-container p{
+    color: white;
+    line-height: 27px;  
+}
+
+.foot-contact input{
+    padding: 8px;
+    border: none;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+.foot-contact textarea{
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+.foot-contact button{
+    width: 100%;
+    padding: 8px;
+    border-radius: 7px;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(23, 1, 44);
+    cursor: pointer;
+}
+
+.foot-contact button:hover{
+    background-color: rgb(35, 1, 66);
+    color: white;
+}
+
+.foot-message{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(38, 3, 72);
 }
